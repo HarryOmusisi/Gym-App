@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/textpth"
+    tools:context=".User">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="20dp">
+
+        <ImageView
+            android:id="@+id/imageUser"
+            android:src="@drawable/download"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            />
+        <TextView
+            android:id="@+id/textName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Harry Wafula Omusisi"
+            android:layout_below="@id/imageUser"
+            android:textColor="@color/whites"
+            android:textStyle="bold|italic"
+            android:textSize="20dp"
+            android:layout_marginBottom="20dp"/>
+        <TextView
+            android:id="@+id/textWeights"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/textName"
+            android:text="@string/weights"
+            android:textColor="@color/whites"
+            android:textStyle="bold|italic"
+            android:textSize="20dp"
+            android:layout_marginBottom="20dp"
+            />
+        <TextView
+            android:id="@+id/textHeights"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/textWeights"
+            android:text="@string/heights"
+            android:textColor="@color/whites"
+            android:textSize="20dp"
+            android:textStyle="italic|bold"
+            android:layout_marginBottom="20dp"
+            />
+            <TextView
+                android:id="@+id/textDetails"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:layout_below="@id/textHeights"
+                android:text="@string/user_details"
+                android:textColor="@color/whites"
+                android:textSize="20dp"
+                android:textStyle="italic|bold"
+                android:layout_margin="15dp"/>
+
+            <EditText
+                android:id="@+id/Editmail"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/textDetails"
+                android:inputType="textEmailAddress"
+                android:hint="Email:harry.omusisi@strathmore.edu"
+                android:textColorHint="@color/whites"
+                android:textColor="@color/whites"
+                android:layout_margin="10dp"
+                />
+            <EditText
+                android:id="@+id/EditAge"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/Editmail"
+                android:hint="@string/age"
+                android:textColorHint="@color/whites"
+                android:textColor="@color/whites"
+                android:layout_margin="10dp"
+                />
+            <EditText
+                android:id="@+id/EditTimeframe"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/EditAge"
+                android:hint="@string/enter_timeframe"
+                android:textColorHint="@color/whites"
+                android:textColor="@color/whites"
+                android:layout_margin="10dp"
+                />
+            <EditText
+                android:id="@+id/EditPhone"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/EditTimeframe"
+                android:hint="+254719 518 082"
+                android:textColorHint="@color/whites"
+                android:textColor="@color/whites"
+                android:layout_margin="10dp"
+                />
+        <Button
+            android:id="@+id/buttonAdd"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/EditPhone"
+            android:layout_centerInParent="true"
+            android:text="@string/add_information"
+            android:textColor="@color/blue"
+            android:textStyle="italic|bold"/>
+        </RelativeLayout>
+    </LinearLayout>
+
+</ScrollView>

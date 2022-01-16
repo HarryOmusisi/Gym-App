@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Ame du Corps et gym</string>
+    <string name="user_profile">profil</string>
+    <string name="Description_profile">description d profil</string>
+    <string name="Workout">plan d entraînement</string>
+    <string name="Describe_workout_plan">Décrivez le plan d entraînement</string>
+    <string name="Histories">histoire</string>
+    <string name="Workout_history">Histoire d entraînement</string>
+    <string name="Location">emplacement</string>
+    <string name="Location_services">Décription de l emplacement</string>
+    <string name="title_activity_maps">Carte</string>
+    <string name="title_activity_google_map">Carte</string>
+    <string name="selected_language">French</string>
+    <string name="language">lingua-franca</string>
+    <string name="login">S identifier</string>
+    <string name="add_user_info">Ajouter des informations d utiliser</string>
+    <string name="enter_last_name">Nom de famille</string>
+    <string name="enter_first_name">Prenom</string>
+    <string name="User_Login">User S identfier</string>
+    <string name="WorkoutName">Nom de l entrainment</string>
+    <string name="weight_registered">Poids enregistre</string>
+    <string name="type_of_exercises">Des exercises</string>
+    <string name="time_of_the_exercise">Temps d exercises</string>
+    <string name="instructor_s_name">Nom de l instucteur</string>
+    <string name="create_plan">Creer un plan</string>
+    <string name="view_history">Voir l historique</string>
+    <string name="weights">Poids :200lbs</string>
+    <string name="heights">La taille:5\'11</string>
+    <string name="user_details">Details de l utiliser</string>
+    <string name="age">Age 21 Annes</string>
+    <string name="enter_timeframe">Plage de temps</string>
+    <string name="add_information">Ajouter des Informations</string>
+</resources>

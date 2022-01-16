@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">bodySoulgym</string>
+    <string-array name="Instructors">
+        <item>Harry</item>
+        <item>Adan</item>
+        <item>Hart</item>
+        <item>Rooney</item>
+        <item>Mishy</item>
+        <item>Sasha</item>
+        <item>Tasha</item>
+        <item>Khajira E</item>
+        <item>Khajira A</item>
+        <item>MIcky</item>
+        <item>Weche</item>
+    </string-array>
+    <string name="user_profile">User profile</string>
+    <string name="Description_profile">Description profile</string>
+    <string name="Workout">Workout plan</string>
+    <string name="Describe_workout_plan">Describe workout plan</string>
+    <string name="Histories">Histories</string>
+    <string name="Workout_history">Workout History</string>
+    <string name="Location">Location</string>
+    <string name="Location_services">Decription of location</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="title_activity_google_map">Map</string>
+    <string name="welcome_all">Greeting Message</string>
+    <string name="selected_language">English</string>
+    <string name="language">language</string>
+    <string name="login">Login</string>
+    <string name="add_user_info">Add User Info</string>
+    <string name="enter_last_name">Enter Last name</string>
+    <string name="enter_first_name">Enter First name</string>
+    <string name="User_Login">User Login</string>
+    <string name="WorkoutName">Name of the Workout</string>
+    <string name="weight_registered">Weight registered</string>
+    <string name="type_of_exercises">Type of Exercises</string>
+    <string name="time_of_the_exercise">Time of the Exercise</string>
+    <string name="instructor_s_name">Instructor\'s name</string>
+    <string name="create_plan">Create Plan</string>
+    <string name="view_history">View History</string>
+    <string name="weights">Weight:200 lbs</string>
+    <string name="heights">Height:5\'11</string>
+    <string name="user_details">User Details</string>
+    <string name="age">Age 21 years</string>
+    <string name="enter_timeframe">Enter timeframe</string>
+    <string name="add_information">Add Information</string>
+    <string name="InstructorsName">Instructors</string>
+    <string name="logout">Logout</string>
+    <string name="title_activity_demo_maps">Map</string>
+    <string name="search">Search</string>
+    <string name="type">Type</string>
+    <string name="map_type">Map type</string>
+
+
+</resources>
